@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+
+
+
+body{
+    background-color: powderblue;
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+
+#order-Box{
+    width: 500px;
+    height: 430px;
+    background-color: white;
+    border: 3px solid cadetblue;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    gap: 10px;
+
+
+}
+
+#order-Box h1 {
+    margin-bottom: 15px;
+    color: cadetblue;
+}
+
+#order-Box label {
+    width: 440px;
+    text-align: left;
+    font-size: 15px;
+}
+
+
+input, select {
+    width: 450px;
+    height: 40px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+button{
+    margin-top: 3px;
+    width: 450px;
+    height: 40px;
+    padding: 12px 35px;
+    cursor: pointer;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+
+#message{
+    text-align: center;
+    font-size: 18px;
+    color: cadetblue;
+    font-weight: bold;
+    margin-top: 10px;
+}
